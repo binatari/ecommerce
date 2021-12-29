@@ -18,7 +18,6 @@ function Product({ media, name, permalink, price, className }) {
               alt={Product.name}
               layout="fill"
               objectFit="cover"
-              priority={true}
             />
           </div>
         )}
