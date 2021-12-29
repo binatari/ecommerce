@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.swiper-pagination-bullet {
+    min-width: 20%;
+    min-height: 0.2em;
+    border-radius: 0px !important;
+}
+
+.swiper-pagination-bullet-active {
+   background-color: white !important;
+   opacity: 0.5 !important;
+}
