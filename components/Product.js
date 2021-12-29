@@ -4,7 +4,7 @@ import cc from "classcat";
 
 function Product({ media, name, permalink, price, className }) {
   const imageClass = cc([
-    "relative overflow-hidden w-full transition-all py-[25em]",
+    "relative overflow-hidden w-full transition-all py-[8em]",
     className,
   ]);
 
@@ -19,7 +19,6 @@ function Product({ media, name, permalink, price, className }) {
               layout="fill"
               objectFit="cover"
             />
-            <span className="text-white">ggggg</span>
           </div>
         )}
         <div className="flex justify-between py-2 md:py-3 space-x-1 text-white">
