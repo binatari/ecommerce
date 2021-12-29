@@ -4,7 +4,7 @@ import cc from "classcat";
 
 function Product({ media, name, permalink, price, className }) {
   const imageClass = cc([
-    "relative overflow-hidden w-full transition-all py-[8em]",
+    "relative overflow-hidden w-full transition-all py-[12em]",
     className,
   ]);
 
