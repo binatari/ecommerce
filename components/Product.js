@@ -10,7 +10,7 @@ function Product({ media, name, permalink, price, className }) {
 
   return (
     <Link href={`/products/${permalink}`}>
-      <a className="group relative">
+      <a className="group relative h-full">
         {media?.source && (
           <div className="relative overflow-hidden w-full transition-all min-h-[90%] h-[90%]">
             <Image
