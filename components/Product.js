@@ -10,15 +10,16 @@ function Product({ media, name, permalink, price, className }) {
 
   return (
     <Link href={`/products/${permalink}`}>
-      <a className="group relative min-h-[25em]">
+      <a className="group relative w-full min-h-full">
         {media?.source && (
-          <div className="relative overflow-hidden w-full transition-all h-[90%]">
+          <div className={imageClass}>
             <Image
               src={media.source}
               alt={Product.name}
               layout="fill"
               objectFit="cover"
             />
+            <span className="text-white">ggggg</span>
           </div>
         )}
         <div className="flex justify-between py-2 md:py-3 space-x-1 text-white">
